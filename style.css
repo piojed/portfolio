@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+
+body {
+	max-width: 100%;
+	height: auto;
+	background-image: url("images/macbook.jpg");
+	font-family: 'Open Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+#container {
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 800px;
+}
+
+/*NAVIGATION TO ALL PAGES*/
+.navigation a {
+	color: black;
+	opacity: 0.4;
+	text-align: left;
+	padding: 0 40px 100px 100px;
+	font-size: 35px;
+	text-decoration: none;
+	position: relative;
+}
+
+
+.logo {
+	text-align: left;
+	padding: 400px 0 0 100px;
+	letter-spacing: 5px;
+}
+
+	.logo > h1 {
+	font-size: 70px;
+	}
+
+	.logo > p {
+		font-size: 20px;
+		letter-spacing: 15px;
+	}
+
+
+
+/*BIO*/
+.button a {
+	text-decoration: none;
+	float: right;
+	padding: 109px 20px 20px 0;
+	color: black;
+	font-size: 20px;
+	opacity: 0.5;
+	position: relative;
+}
+
+/*PROJECTS*/
+.button1 a {
+	text-decoration: none;
+	float: right;
+	padding: 189px 20px 20px 0;
+	color: black;
+	font-size: 20px;
+	opacity: 0.5;
+	position: relative;
+}
+
+.button2 a {
+	text-decoration: none;
+	float: right;
+	padding: 355px 20px 20px 0;
+	color: black;
+	font-size: 20px;
+	opacity: 0.5;
+	position: relative;
+}
+
+.button3 a {
+	text-decoration: none;
+	float: right;
+	padding: 320px 20px 20px 0;
+	color: black;
+	font-size: 20px;
+	opacity: 0.5;
+	position: relative;
+}
+/*BIO PAGE*/
+
+.bio {
+	padding: 100px 0 0 100px;
+}
+
+/*PROJECTS PAGE*/
+
+.projects {
+	padding: 200px 0 0 100px;
+}
+
+	.projects > ul {
+		list-style-type: none;
+		padding: 50px 0 0 100px;
+		line-height: 80px;
+	}
+
+
+/*SKILLS PAGE*/
+
+
+.skills {
+	padding: 200px 0 0 100px;
+}
+
+	.skills > ul {
+		padding: 50px 0 0 100px;
+	}
+
+
+/*CONTACT PAGE*/
+
+
+
+.contact h2 {
+	padding: 150px 0 0 100px;
+	list-style-type: none;
+	font-size: 30px;
+} 
+
+.contact {
+	position: relative;
+	padding: 100px 0 0 50px;
+}
+
+.fa {
+	opacity: 0.7;
+	color: black;
+	font-size: 35px !important;
+	text-decoration: none;
+	padding: 50px 0 0 300px;
+}
